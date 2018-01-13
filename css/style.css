@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400);
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#FBF5C8;
+	font-family: 'Tahoma', sans-serif;
+}
+button{
+	color: #ffffff;
+	background-color: lime;
+}
+.clear {
+	clear:both;
+}
+.header {
+	text-align:center;
+	width: 80%;
+	margin: auto;
+}
+.header h1 {
+	font-family: 'Orbitron', sans-serif;
+	color:#DA7F0A;
+	font-size:35px;
+	overflow-wrap: break-word;
+}
+.content {
+	background-color:#34495e;
+	height:auto;
+	padding:30px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 60% !important;
+}
+@media (max-width: 530px) {
+	.namelabel{
+		width: 100% !important;
+	}
+	#name{
+		width: 100% !important;
+	}
+}
+.content1{
+	width: 100%;
+	margin: auto !important;
+	
+}
+.content1-1 {
+	
+}
+#email{
+	font-weight: 400;
+  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#name{
+	font-size: 20px;
+	font-weight: 900;
+	color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+	background-image:  -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image:  gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+}
+.content1-1 img{
+	display:block;
+	width: inherit;
+	height: 10em;
+	border:7px solid white;
+}
+
+.contentinfo1 a,a:active {
+	text-decoration:none;
+	color:#CACFD4;
+}
+.contentinfo1 a:hover {
+	color:#e74c3c;
+	transition:all 0.5s ease-in-out;
+}
+.contentinfo1 h1 {
+	color:#CACFD4;
+	font-size:35px;
+	font-family: 'Orbitron', sans-serif;
+}
+.contentinfo1 p {
+	line-height:15px;
+	color:#CACFD4;
+}
+.content2 {
+	width: 100%;
+	margin : auto !important;
+	padding-top:2em !important;
+}
+.content2-1 {
+	text-align:center;
+}
+.content2-1 img{
+	border-radius: 50%;
+	width: 50%;
+	height:30%;
+}
+.contentinfo2 {
+	text-align:center;
+	color:white;
+}
+.contentinfo2 h2 {
+	line-height:15px;
+	font-weight:bold;
+}
+.contentinfo2 p {
+	line-height:15px;
+}
+.content2-2 {
+	text-align:center;
+}
+.content2-3 {
+text-align: center;
+}
+.img-info img{
+	height:2em;
+}
+.hiddenData{
+	display: none;
+}
+.ProfileFeedbutton{
+color: #ffffff;
+	background-color: lime;
+}
+.postlist{
+	width: 70%;
+	background: linear-gradient(#22c1c3,#fdbb2d);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+.bottom{
+	width: 80%;
+	text-align: center;
+	padding-top: 1.5em;
+	margin: auto !important;
+}
+.footer a, a:active {
+	color:#945D1B;
+	text-decoration:none;
+
+	font-family: 'Tahoma', sans-serif;
+}
+.footer a:hover {
+	color:#00c4ff;
+	text-decoration:none;
+	transition:all 0.5s ease-in-out;
+}
+.footer {
+	padding-top: 2em;
+	font-weight:100;
+	text-align: center;
+}
+.footer p {
+	color:#945D1B;
+	font-size:15px;
+	font-family: 'Tahoma', sans-serif;
+	line-height:25px;
+}
