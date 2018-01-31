@@ -1,7 +1,7 @@
  //jQuery function to load the script only after document(html,css) is fully loaded
   $( document ).ready(function() {
 //Below is the  Facebook Graphic Api with access token which is assigned  to a variable the get user data
-    var myFacebookToken = 'EAACEdEose0cBAPSEoEktRyERiRhlwAoOIfLZC6JQhYqpyCchvNovZAUuiZCdTFtSh5eZBP3C3BWxqnB72Dt9bxDLMIovToLp0Wo7r3aHhhNLRGvnZAlrYq3prBbnscLCcyZAUlfVCoHZCUoRIPxZCf0blLawj0uGtbQg4o4MV7mJSI2AZCzrKDVuP5LobG7qo9jZCcf4kvGkFv8wZDZD';
+    var myFacebookToken = 'EAACEdEose0cBACvqyU2oIjVEhI73V1ZA1nz3k7diniidhj4YWaUDZAbhsZA8ZBAnQc056033TBBHDSRYStP8ridn2mPTQ1lZBtEJIdoyfMj4w4U6AejgSwF4BcSPW89bMDoKZAHUi90HXCj0DI2zzqiSsL1J1h8kRpWzIzAQH3n0epyMZAv5MFrm2KkI7ZC8Y3w6jxG6ZAa2JPAZDZD';
 //Below is the function to get the whole details of user
     function myFacebookData(){
 //Asynchrnous AJAX to load the portion of the page with out reloading the whole page
