@@ -1,2 +1,2 @@
 # jQuery-AJAX
-This project is about getting facbook data using AJAX and make fun with that
+This project is about getting facebook data using AJAX and make fun with that
